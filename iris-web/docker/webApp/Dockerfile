@@ -29,7 +29,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY source/dependencies /dependencies
 COPY source/requirements.txt /
-
+RUN pip3 install wheel
 RUN pip3 install -r requirements.txt
 
 ###############
