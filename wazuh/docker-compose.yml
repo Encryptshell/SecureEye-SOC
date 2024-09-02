@@ -50,8 +50,6 @@ services:
       - ./custom-integrations/custom-iris.py:/var/ossec/integrations/custom-iris.py
       - ./custom-integrations/local_rules.xml:/var/ossec/etc/rules/local_rules.xml
 
-
-
   wazuh.indexer:
     image: wazuh/wazuh-indexer:4.6.0
     hostname: wazuh.indexer
