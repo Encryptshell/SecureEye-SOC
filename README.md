@@ -17,7 +17,7 @@ T-Guard is an innovative security operations center (SOC) solution that leverage
 
 ## Installation and Usage
 
-https://docs.tguard.org/
+
 
 ## License
 
